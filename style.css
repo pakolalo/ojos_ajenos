@@ -428,6 +428,11 @@ header .container {
 }
 
 @media (max-width: 500px) {
+
+    header {
+        background-attachment: scroll;
+    }
+
     .hero_title {
         font-size: 4rem;
     }

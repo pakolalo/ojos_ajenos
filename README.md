@@ -3,13 +3,13 @@
 Ojos Ajenos web page made with HTML, CSS and JavaScript
 
 ## Autor
-**Name**
+**Isco del Collado**
 
 * [LinkedIn](https://www.linkedin.com/in/franciscodelcollados/)
 * [Portfolio](https://iscodelcollado.com)
 
 ## Watch the live example
-- [link]
+- [link](https://pakolalo.github.io/ojos_ajenos/)
 
 ## Installation
 

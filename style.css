@@ -598,6 +598,11 @@ footer {
         display: none;
     }
 
+    .navbar_link {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
     .projects_card {
         width: 80%;
     }

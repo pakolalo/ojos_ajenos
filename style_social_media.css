@@ -301,6 +301,7 @@ background-color: var(--white);
 
 .social_media_services-paragraph {
     font-size: 1.6rem;
+    font-weight: 200;
     margin-bottom: 20px;
 }
 
@@ -315,6 +316,7 @@ background-color: var(--white);
 
 .social_media_services-bullet p {
     font-size: 1.6rem;
+    font-weight: 200;
     margin-bottom: 20px;
 }
 
@@ -461,25 +463,10 @@ footer {
         background-attachment: scroll;
     }
 
-    @keyframes animate {
-        0%{
-            opacity: 0;
-            transform: translateY(100%) scale(.5);
-        } 5%, 20%{
-            opacity: 0;
-            transform: translateY(100%) scale(.7);
-        } 25%, 40% {
-            opacity: 1;
-            transform: translateY(0%) scale(1);
-            pointer-events: all;
-        } 45%, 60% {
-            opacity: 0;
-            transform: translateY(-100%) scale(.7);
-        } 65%, 100% {
-            opacity: 0;
-            transform: translateY(-100%) scale(.5);
-        }
+    #background_video {
+        object-position: 80% 50%;
     }
+
 
     .hero_title {
         font-size: 4rem;
@@ -494,12 +481,21 @@ footer {
         margin-bottom: 20px;
     }
 
-    .projects_card {
-        width: 80%;
+    .social_media_services .container {
+        flex-direction: column;
     }
 
-    .projects_card h2 {
-        bottom: 50%;
+    .social_media_text--container,
+    .social_media_services-img {
+        width: 100%;
+    }
+
+    .social_media_services-title {
+        font-size: 4rem;
+    }
+    
+    .social_media_services-subtitle {
+        font-size: 2rem;
     }
 
     .benefits .container {

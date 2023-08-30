@@ -4,19 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ojos Ajenos</title>
+    <title>Social Media - OA</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style_social_media.css" />
   </head>
   <body>
     <header class="header">
+      <video id="background_video" autoplay loop muted poster="./assets/img/social_media_video.jpg">
+        <source src="./assets/videos/social_media_video.mp4" type="video/mp4">
+      </video>  
       <div class="container">
-        <a href="#" class="logo_container">
+        <a href="./index.html" class="logo_container">
           <img
             src="./assets/img/agencia creativ.png"
             alt="Ojos Ajenos logo imagen"
@@ -38,7 +41,7 @@
       <nav class="navbar" data-navbar>
         <ul class="navbar_list">
           <li>
-            <a href="./social_media.html" class="navbar_link">Social Media</a>
+            <a href="" class="navbar_link">Social Media</a>
           </li>
           <li>
             <a href="" class="navbar_link">Video / Animación</a>
@@ -62,36 +65,8 @@
         <div class="container">
           <div class="hero_content">
             <div class="hero_title--container">
-              <div class="hero_title--card" style="--delay: -1">
-                <h1 class="hero_title ht1">Social Media</h1>
-                <div class="hero_title_link--container">
-                  <a href="./social_media.html">Explora<span>+</span></a>
-                </div>
-              </div>
-              <div class="hero_title--card" style="--delay: 0">
-                <h1 class="hero_title ht2">Video / Animación</h1>
-                <div class="hero_title_link--container">
-                  <a href="#">Explora<span>+</span></a>
-                </div>
-              </div>
-              <div class="hero_title--card" style="--delay: 1">
-                <h1 class="hero_title ht3">Branding</h1>
-                <div class="hero_title_link--container">
-                  <a href="#">Explora<span>+</span></a>
-                </div>
-              </div>
-              <div class="hero_title--card" style="--delay: 2">
-                <h1 class="hero_title ht1">Diseño Web</h1>
-                <div class="hero_title_link--container">
-                  <a href="#">Explora<span>+</span></a>
-                </div>
-              </div>
-              <div class="hero_title--card" style="--delay: 2">
-                <h1 class="hero_title ht1">Nuestro Trabajo</h1>
-                <div class="hero_title_link--container">
-                  <a href="#">Explora<span>+</span></a>
-                </div>
-              </div>
+              <h1 class="hero_title">Social Media</h1>
+              <h2 class="hero_subtitle">Impulsa tu Negocio en línea</h2>
             </div>
             <div class="hero_right--container">
               <a href="">
@@ -137,15 +112,6 @@
       <section class="hero_bottom--container">
         <div class="container">
           <div class="hero_count--container">
-            <div class="counter--container">
-              <span>03</span>
-              <span>02</span>
-              <span>01</span>
-            </div>
-            <div class="count--container">
-              <span>/</span>
-              <span>03</span>
-            </div>
           </div>
           <div class="hero_bottom--right">
             <p>SCROLL DOWN</p>
@@ -155,45 +121,12 @@
       </section>
     </header>
     <main>
-        <section class="projects">
-            <div class="container">
-                <article class="projects_card">
-                    <img src="./assets/img/social_media_img.jpg" alt="Project 1 image">
-                    <h2 class="projects_title">Social Media</h2>
-                    <p class="projects_p">Impulsa tu presencia en línea con estrategias de Social Media.</p>
-                    <a href="./social_media.html"><h3 class="projects_subtitle">EXPLORA +</h3></a>
-                </article>
-                <article class="projects_card">
-                    <img src="./assets/img/video_animacion_img.jpg" alt="Project 1 image">
-                    <h2 class="projects_title">Video / Animación</h2>
-                    <p class="projects_p">Transformamos tus ideas en contenido visual cautivador.</p>
-                    <a href=""><h3 class="projects_subtitle">EXPLORA +</h3></a>
-                </article>
-                <article class="projects_card">
-                    <img src="./assets/img/branding_img.jpg" alt="Project 1 image">
-                    <h2 class="projects_title">Branding</h2>
-                    <p class="projects_p">Construimos identidades visuales únicas que resuenan con tus clientes.</p>
-                    <a href=""><h3 class="projects_subtitle">EXPLORA +</h3></a>
-                </article>
-                <article class="projects_card">
-                    <img src="./assets/img/diseno_web_img.jpg" alt="Project 1 image">
-                    <h2 class="projects_title">Diseño Web</h2>
-                    <p class="projects_p">Eleva tu presencia en línea con sitios web atractivos y funcionales.</p>
-                    <a href=""><h3 class="projects_subtitle">EXPLORA +</h3></a>
-                </article>
-                <article class="projects_card">
-                    <img src="./assets/img/nuestro_trabajo_img.jpg" alt="Project 1 image">
-                    <h2 class="projects_title">Nuestro Trabajo</h2>
-                    <p class="projects_p">Somos OA Media</p>
-                    <a href=""><h3 class="projects_subtitle">EXPLORA +</h3></a>
-                </article>
-                <article class="projects_card">
-                    <img src="./assets/img/contacto_img.jpg" alt="Project 1 image">
-                    <h2 class="projects_title">Haznos parte de tu historia</h2>
-                    <p class="projects_p">Contáctanos</p>
-                    <a href=""><h3 class="projects_subtitle">EXPLORA +</h3></a>
-                </article>
-            </div>
+        <section class="social_media_services">
+          <div class="container">
+            <h1 class="social_media_services-title">En Ojos Ajenos Agencia Creativa</h1>
+            <h2 class="social_media_services-subtitle">Te ofrecemos soluciones a medida para tus necesidades comerciales</h2>
+            <p class="social_media_services-paragraph">Nuestros servicios de Social Meida están diseñados para maximizar tu presencia en línea y generar conversaciones tangibles. No importa si eres un negocio pequeño o una empresa establecida, podemos ayudarte</p>
+          </div>
         </section>
         <section class="benefits">
           <div class="container">
@@ -206,7 +139,7 @@
               <p class="benefits_text">
                 Con nuestros paquetes de servicios de Social Media, te ayudamos a alcanzar tus objetivos comerciales. Ya no te preocupes por buscar clientes; nosotros creamos estrategias efectivas para atraerlos hacia ti. Gestionamos de manera integral y profesional tus Anuncios y Rdes Sociales, permitiéndote concentrarte en la operación y atención a tus valiosos clientes.
               </p>
-              <a href="./social_media.html" class="benefits_button">CONOCE MÁS</a>
+              <a href="" class="benefits_button">CONOCE MÁS</a>
             </div>
           </div>
         </section>

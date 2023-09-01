@@ -288,18 +288,21 @@ background-color: var(--white);
     width: 45%;
 }
 
-.social_media_services-title {
+.social_media_services-title,
+.questions-title {
     font-size: 5rem;
     margin-bottom: 20px;
 }
 
-.social_media_services-subtitle {
+.social_media_services-subtitle,
+.questions-subtitle {
     font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.social_media_services-paragraph {
+.social_media_services-paragraph,
+.questions-answer {
     font-size: 1.6rem;
     font-weight: 200;
     margin-bottom: 20px;
@@ -350,12 +353,35 @@ background-color: var(--white);
 .social_media_packages .social_media_services-bullet b::before {
     content: "";
     position: absolute;
-    top: 0;
     left: -15px;
     top: 11px;
     width: 10px;
     height: 10px;
     border: 1.2px solid var(--green);
+    border-radius: 50%;
+}
+
+.questions {
+    background-color: #2394f0;
+}
+
+.questions-subtitle {
+    margin-bottom: 10px;
+}
+
+.questions-answer {
+    position: relative;
+    color: var(--white);
+}
+
+.questions_bullets-container .questions-answer p::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 7px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--white);
     border-radius: 50%;
 }
 
@@ -397,6 +423,21 @@ footer {
 
 .footer_copy {
     font-size: 1.2rem;
+}
+
+@media (max-width: 840px) {
+    .social_media_services .container {
+        flex-direction: column;
+    }
+
+    .social_media_text--container {
+        width: 100%;
+    }
+
+    .social_media_services-img {
+        width: 25%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 500px) {
@@ -446,24 +487,6 @@ footer {
 
     .social_media_services-question img {
         width: 100%;
-    }
-
-
-    .new_media .container {
-        flex-direction: column;
-    }
-
-    .new_media img,
-    .new_media--container {
-        width: 100%;
-    }
-
-    .new_media--container h3 {
-        font-size: 2rem;
-    }
-
-    .new_media--container h2 {
-        font-size: 3rem;
     }
 
     .footer_email--container h2 {

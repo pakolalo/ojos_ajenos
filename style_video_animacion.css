@@ -353,6 +353,12 @@ background-color: var(--white);
     height: auto;
 }
 
+.diseno_web-img {
+    width: 45%;
+    margin: 0 auto;
+    border: 5px solid var(--white);
+}
+
 .social_media_services-question .social_media_services-list .social_media_services-bullet b,
 .social_media_services-question .social_media_services-list .social_media_services-bullet p {
     color: var(--white);
